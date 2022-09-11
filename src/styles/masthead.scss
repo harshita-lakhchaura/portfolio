@@ -1,0 +1,99 @@
+body{
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+}
+.name{
+        position: absolute;
+        -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+        top: 50%;
+        left:32%;
+        overflow: hidden;
+        text-align: left;
+        font-size: 30px;
+        // margin-left: -200px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(318deg, #12c2e9, #b92b27, #c31432,#009fff,#ff416c,#8a2387,#ed213a);
+        background: -o-linear-gradient(318deg, #12c2e9, #b92b27, #c31432,#009fff,#ff416c,#8a2387,#ed213a);
+        background: linear-gradient(132deg, #12c2e9, #b92b27, #c31432,#009fff,#ff416c,#8a2387,#ed213a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        background-size: 400% 4%;
+        -webkit-animation: textcolorchange 15s linear infinite;
+                animation: textcolorchange 15s linear infinite;
+    }
+    .subtitle{
+        position: absolute;
+        -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+        top: 60%;
+        left:31%;
+        overflow: hidden;
+        text-align: left;
+        font-size: 30px;
+    }
+    @-webkit-keyframes textcolorchange{
+        0%{
+            background-position: 0% 50%;
+        }
+        25%{
+            background-position: 50% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        75%{
+            background-position: 75% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    @keyframes textcolorchange{
+        0%{
+            background-position: 0% 50%;
+        }
+        25%{
+            background-position: 50% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        75%{
+            background-position: 75% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+.subtitle{
+    color:white;
+    padding:20px;
+}
+.pp{
+    margin:10px;
+    margin-left: 60%;
+    border-radius: 100%;
+}
+a{
+    color:goldenrod;
+}
+a:hover{
+    color:white;
+}
+.resume{
+    display: flex;
+    margin-top:-260px;
+    margin-left: 250px;
+    margin-right:650px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-bottom: 15px;
+}

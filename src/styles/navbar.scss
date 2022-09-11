@@ -1,0 +1,102 @@
+.navbarContain{
+  background-color: goldenrod;
+    height:1px;
+    margin-top: 30px;
+}
+  .logo{
+    border-radius: 100%;
+    margin: 10px;
+
+  }
+  .navbar{
+    margin-top: -80px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    & span{
+      padding:10px
+    }
+  }
+  .bubbleWrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    bottom: 25px
+  }
+  .menuElement{
+    opacity: 0.4;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.7;
+    }
+  }   
+
+#bubbleWrapper{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 25px;
+}
+.bubble{
+  background-color: gold;
+  width: 40px;
+  height: 40px;
+  bottom: 85px;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity:0.7;
+  
+  cursor:pointer;
+}
+
+.icon{
+  opacity: 0;
+}
+
+#bubble1{
+  
+  
+  > span{
+    opacity: 0.7;
+  }
+  &:hover{
+      opacity: 2;
+  }
+}
+#bubble2{
+  
+  > span{
+    opacity: 0.7;
+  }
+  &:hover{
+      opacity: 2;
+  }
+}
+#bubble3{
+  
+  > span{
+    opacity: 0.7;
+  }
+  &:hover{
+      opacity: 2;
+  }
+}
+#bubble4{
+  
+  > span{
+    opacity: 0.7;
+  }
+  &:hover{
+      opacity: 2;
+  }
+}
+#menuWrapper{
+position: absolute;
+width: 40%;
+display: flex;
+justify-content: space-around;
+}
