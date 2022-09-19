@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 import "../styles/masthead.scss"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Particle from "./particles"
 
 const Masthead = () => {
   
@@ -14,7 +16,8 @@ useEffect(() => {
     }, 40)
   }
 }, [index])
-  return (
+  return (<>
+  <Particle/>
     <div className="masthead">
         <span class="name"><h1>Harshita Lakhchaura</h1></span>
         <span class="subtitle">
@@ -24,6 +27,8 @@ useEffect(() => {
     <div className="pp"><img src={require("../assets/pp.jpg")} alt="logo" height="500px" style={{borderRadius:"20%"}}></img></div>
     <p className="resume"><a href={require("../assets/Harshita_Resume.pdf")} download="Harshita_Resume"><h1>Download Resume</h1></a></p>
     </div>
+    <div className="mastEnd"></div>
+    </>
   )
 }
 
